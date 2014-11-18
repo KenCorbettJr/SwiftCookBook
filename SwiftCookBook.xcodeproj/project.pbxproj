@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA72ED041A1B066B00E3E554 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72ED031A1B066B00E3E554 /* Recipe.swift */; };
 		F51CC68D1A1B0529008B8CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51CC68C1A1B0529008B8CAE /* AppDelegate.swift */; };
 		F51CC68F1A1B0529008B8CAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51CC68E1A1B0529008B8CAE /* ViewController.swift */; };
 		F51CC6921A1B0529008B8CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51CC6901A1B0529008B8CAE /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA72ED031A1B066B00E3E554 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		F51CC6871A1B0529008B8CAE /* SwiftCookBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCookBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51CC68B1A1B0529008B8CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F51CC68C1A1B0529008B8CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				F51CC68B1A1B0529008B8CAE /* Info.plist */,
+				AA72ED031A1B066B00E3E554 /* Recipe.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA72ED041A1B066B00E3E554 /* Recipe.swift in Sources */,
 				F51CC68F1A1B0529008B8CAE /* ViewController.swift in Sources */,
 				F51CC68D1A1B0529008B8CAE /* AppDelegate.swift in Sources */,
 			);
@@ -407,6 +411,7 @@
 				F51CC6A81A1B0529008B8CAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F51CC6A91A1B0529008B8CAE /* Build configuration list for PBXNativeTarget "SwiftCookBookTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				F51CC6AB1A1B0529008B8CAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
